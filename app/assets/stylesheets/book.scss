@@ -1,0 +1,93 @@
+// Place all the styles related to the Book controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: small;
+   font-color: #000;
+   background-color: #fff;
+   text-align: center;
+}
+.menu{
+	text-align: center;
+}
+.menu ul {
+	background-color: #1F568B;
+	list-style-type: none;
+	text-align: center;
+	margin: 0px 0px -20px 0px;
+}
+.menu ul li{
+	text-decoration: none;
+	display: inline-block;
+	width: 120px;
+	height: 60px;
+	line-height: 40px;
+	color: #f1f1f1;
+
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #fff;
+	display: block;
+}
+.menu ul li a:hover{
+  background: #F1F1F1;
+  color: #333;
+}
+.menu .intro{
+	background-color: #e0d5d5;
+	color: #979090;
+	height: 200px;
+	padding-top: 20px;
+	margin-bottom: 10px;
+
+}
+
+
+p { 
+   line-height: 150%;
+}
+
+
+#content {
+   float: left;
+   width: 450px;
+   padding: 10px;
+}
+
+#content h3 {
+   margin-top: 15px;
+}
+
+#books {
+   list-style-type: none;
+}
+
+#books li {
+   line-height: 140%;
+}
+
+#sidebar {
+   width: 200px;
+   margin-left: 480px;
+}
+
+#subjects {
+   text-align: center;
+   padding: 5px;
+   background-color: #ececec;
+   border: 1px solid #ccc;
+   margin-bottom: 20px;
+}
+
+#subjects li {
+   display: inline-block;
+   width: 120px;
+   height: 40px;
+   padding-left: 5px;
+   padding-top: 12px;
+}

@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  price: 1.5
+  subject_id: 1
+  description: MyText
+  created_ad: 2020-04-19 09:59:45
+
+two:
+  title: MyString
+  price: 1.5
+  subject_id: 1
+  description: MyText
+  created_ad: 2020-04-19 09:59:45
